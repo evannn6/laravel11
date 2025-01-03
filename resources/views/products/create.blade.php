@@ -21,7 +21,7 @@
                             @csrf
 
                             <div class="form-group mb-3">
-                                <label class="font-weight-bold">IMAGE(optional)</label>
+                                <label class="font-weight-bold">IMAGE</label>
                                 <input type="file" class="form-control @error('image') is-invalid @enderror" name="image">
 
                                 <!-- error message untuk image -->
